@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "880639990165",
+    "project_id": "fable-da2ca",
+    "storage_bucket": "fable-da2ca.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:880639990165:android:fdf7d2810e1f21716f7e9c",
+        "android_client_info": {
+          "package_name": "com.example.fable"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-m_00LRpHUd0a7NiOGIYYw1E2MUuUb2s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

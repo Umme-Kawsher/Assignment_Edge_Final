@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#19707C"
+
+    tools:context=".splash">
+
+    <ImageView
+        android:id="@+id/logoimg"
+        android:layout_width="@dimen/_478sdp"
+        android:layout_height="872dp"
+        android:foregroundGravity="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/logo_no_back" />
+
+    <TextView
+        android:id="@+id/logonameimg"
+        android:layout_width="490dp"
+        android:layout_height="174dp"
+        android:fontFamily="@font/apptext"
+        android:gravity="center"
+        android:text="Spark Imagination    Share a Tale..."
+        android:textColor="#92B6C8"
+        android:textSize="@dimen/_30sdp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.847" />
+
+    <TextView
+        android:id="@+id/ownone"
+        android:layout_width="@dimen/_300sdp"
+        android:layout_height="36dp"
+        android:gravity="center_horizontal"
+        android:text="©Fable2024. All Rights Reserved By Umme."
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/_13sdp"
+        android:textStyle="italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.476"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
